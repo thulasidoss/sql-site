@@ -11,7 +11,7 @@ cat << createdatabase
 <>
 <>
 <>
-Please type a commands shown steps:
+NOTE:Please follow below steps
 
 step 1 :create database new; (to create database . new is database name)
 
@@ -29,6 +29,8 @@ cat << run
 <>
 <>
 <>
+NOTE:Please follow below steps
+
 step 1 : Setup a Password and Remember
 
 step 2 : Enter "Yes" to All
