@@ -36,6 +36,8 @@ step 2 : Enter "Yes" to All
 step 3 : now snmae localhost to 127.0.0.1 in connect.php 
 
 step 4 : now Change the password on connect.php which is you previsely setup password
+
+step 5 : and now change same things in register.php
 <>
 <>
 <>
@@ -51,6 +53,7 @@ cd /var/www/html
 sudo chmod 777 vulnerablesite
 cd vulnerablesite
 sudo nano connect.php
+sudo nano register.php
 echo "Successfully Completed"
 echo "Copy And Paste the URL: ( http://127.0.0.1/vulnerablesite  )  in browser and open account.html" 
 echo "start sql injection (true' or '1=1' #) copy and past this cheat in name field"
