@@ -7,17 +7,39 @@ sudo service mysql start
 
 cat << createdatabase
 ========================================================================================================================================================================================
-Please type a commands shown below:
-step1:create database new; (to create database . new is database name)
-step2:exit; (to exit from mysql)
+<>
+<>
+<>
+<>
+Please type a commands shown steps:
+
+step 1 :create database new; (to create database . new is database name)
+
+step 2 :exit; (to exit from mysql)
+<>
+<>
+<>
+<>
 ========================================================================================================================================================================================
 createdatabase
 sudo mysql
 cat << run
 ========================================================================================================================================================================================
-step1 : Setup a Password and Remember
-step2 : Enter "Yes" to All
-step3 : enter the password to Change the password on connect.php
+<>
+<>
+<>
+<>
+step 1 : Setup a Password and Remember
+
+step 2 : Enter "Yes" to All
+
+step 3 : now snmae localhost to 127.0.0.1 in connect.php 
+
+step 4 : now Change the password on connect.php which is you previsely setup password
+<>
+<>
+<>
+<>
 ========================================================================================================================================================================================
 run
 sudo mysql_secure_installation
@@ -33,4 +55,3 @@ echo "Successfully Completed"
 echo "Copy And Paste the URL: ( http://127.0.0.1/vulnerablesite  )  in browser and open account.html" 
 echo "start sql injection (true' or '1=1' #) copy and past this cheat in name field"
 echo "to prevent vulnerable please check the pdf file which is attached with repository"
-
